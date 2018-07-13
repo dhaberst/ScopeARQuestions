@@ -15,11 +15,8 @@ def print_pyramid(height, out=sys.stdout):
     Raises:
         SystemExit: exits program
     '''
-    # A check if height is an integer, if it is, overrite height
-    #  else print an exit message and exit.
-    # ***Convert to string first so that it can run isdigit which 
-    #   checks if its an int/float/<0)***
-    if str(height).isdigit():
+    # A check if height is an integer
+    if str(height).isdigit(): # Converting height to str allows use of isdigit
         height = int(height)
     else:
         out.write("Argument is not an integer and cannot be less than 0!")
