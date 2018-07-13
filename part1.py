@@ -51,5 +51,5 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         print_pyramid(sys.argv[1])
     else:
-        out.write("Invalid command line arguments. Usage: python part1.py <height of tree>")
+        print("Invalid command line arguments. Usage: python part1.py <height of tree>")
         exit(-1)
