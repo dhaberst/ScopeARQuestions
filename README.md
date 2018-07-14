@@ -1,7 +1,8 @@
 # ScopeARQuestions
 These are the solutions to the provided questions in /docs.
 # Usage
-## Tests 
+## Tests
+[![Build Status](https://travis-ci.org/dhaberst/ScopeARQuestions.svg?branch=master)](https://travis-ci.org/dhaberst/ScopeARQuestions)
 ## Problems
 # Resources
 ## Python Docs
