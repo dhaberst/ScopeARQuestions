@@ -11,12 +11,12 @@ python part2.spec.py
 ```
 Otherwise sit back and enjoy CI :smiley:
 ## Problems
-### part1.py <height>
+### part1.py &lt;height&gt;
 This program prints out a tree of *'s given height as an argument.
 ```bash
 python part1.py 8
 ```
-### part2.py <height>
+### part2.py &lt;height&gt;
 This program prints out an x of *'s given height as an argument.
 ```bash
 python part2.py 5
