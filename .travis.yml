@@ -1,6 +1,7 @@
 language: python
 python:
   - "3.6"
- script:
+script:
   - python part1.spec.py
   - python part2.spec.py
+  
