@@ -7,7 +7,7 @@ def print_x(height, out=sys.stdout):
     Explanation:
     In this problem its easier to use a list for each line of size height.
      That way as we loop through the height we can set the index at i and
-      height - i.
+     height - i.
         ex: 
            I   P
             I P 
@@ -15,6 +15,10 @@ def print_x(height, out=sys.stdout):
             P I
            P   I
         Where I is the index and P is height - index - 1
+
+     ***Note that if the height is even we have to round up or down
+     since only odd numbers can have a 'middle'. In this case I
+     choose to round down to nearest odd (minus 1).
 
     Args:
         height: The height of the x to be printed.
@@ -29,6 +33,10 @@ def print_x(height, out=sys.stdout):
     else:
         out.write("Argument is not an integer and cannot be less than 0!")
         exit(-1)
+
+    # Check if height is even, if so, minus 1 (nearest odd)
+    if height % 2 == 0:
+        height -= 1
 
     # Need to check if height is > 0 so we don't print empty newlines
     if height > 0:
