@@ -31,7 +31,7 @@ class TestPart2(unittest.TestCase):
 
     def test_print_x_height_5(self):
         '''
-        This test should print an x of height 5
+        This test should print an x of height 5.
         '''
         out = StringIO()
         print_x(5, out=out)
@@ -64,7 +64,7 @@ class TestPart2(unittest.TestCase):
     def test_print_x_height_0(self):
         '''
         This test should print a pyramid of height 0, it
-        should print an empty string
+        should print an empty string.
         '''
         out = StringIO()
         print_x(0, out=out)
