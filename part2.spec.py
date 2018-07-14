@@ -44,6 +44,23 @@ class TestPart2(unittest.TestCase):
                           "*   *\n"
                           "\n")
 
+    def test_print_x_height_6(self):
+            '''
+            This test should print an x of height 6.
+            Because of my assumption this should only
+            print an x of height 5.
+            '''
+            out = StringIO()
+            print_x(6, out=out)
+            output = out.getvalue()
+            assert output == ("\n"
+                            "*   *\n"
+                            " * *\n"
+                            "  *\n"
+                            " * *\n"
+                            "*   *\n"
+                            "\n")
+
     def test_print_x_height_0(self):
         '''
         This test should print a pyramid of height 0, it
