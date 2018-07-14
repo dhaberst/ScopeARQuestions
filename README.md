@@ -3,7 +3,7 @@ These are the solutions to the provided questions in /docs.
 # Usage
 ## Tests 
 ## Problems
-# Resources / Collaborations / Websites
+# Resources
 ## Python Docs
 - [Unit Testing](https://docs.python.org/3.6/library/unittest.html)
 ## Stack Overflow
